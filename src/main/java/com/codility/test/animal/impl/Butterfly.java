@@ -1,6 +1,6 @@
 package com.codility.test.animal.impl;
 
-import com.codility.test.animal.FlyableAnimal;
+import com.codility.app.animal.FlyableAnimal;
 
 public class Butterfly implements FlyableAnimal {
 

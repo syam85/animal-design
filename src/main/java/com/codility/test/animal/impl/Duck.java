@@ -1,8 +1,8 @@
 package com.codility.test.animal.impl;
 
-import com.codility.test.animal.Bird;
-import com.codility.test.animal.SingableAnimal;
-import com.codility.test.animal.SwimableAnimal;
+import com.codility.app.animal.Bird;
+import com.codility.app.animal.SingableAnimal;
+import com.codility.app.animal.SwimableAnimal;
 
 public class Duck implements Bird, SingableAnimal, SwimableAnimal {
 	public String swim() {

@@ -1,8 +1,13 @@
-package com.codility.test.animal;
+package com.codility.app;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.codility.app.animal.Animal;
+import com.codility.app.animal.FlyableAnimal;
+import com.codility.app.animal.SingableAnimal;
+import com.codility.app.animal.SwimableAnimal;
+import com.codility.app.animal.WalkableAnimal;
 import com.codility.test.animal.impl.Butterfly;
 import com.codility.test.animal.impl.Cat;
 import com.codility.test.animal.impl.Caterpillar;
@@ -14,7 +19,7 @@ import com.codility.test.animal.impl.Parrot;
 import com.codility.test.animal.impl.Rooster;
 import com.codility.test.animal.impl.Shark;
 
-public class CountLogic {
+public class Application {
 
 	public static void main(String[] args) {
 		List<Animal> animals = new ArrayList<>();

@@ -1,9 +1,9 @@
 package com.codility.test.animal.impl;
 
-import com.codility.test.animal.Animal;
-import com.codility.test.animal.Bird;
-import com.codility.test.animal.FlyableAnimal;
-import com.codility.test.animal.SingableAnimal;
+import com.codility.app.animal.Animal;
+import com.codility.app.animal.Bird;
+import com.codility.app.animal.FlyableAnimal;
+import com.codility.app.animal.SingableAnimal;
 
 public class Parrot implements Bird, SingableAnimal, FlyableAnimal {
 

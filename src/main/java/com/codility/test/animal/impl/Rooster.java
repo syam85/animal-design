@@ -1,6 +1,6 @@
 package com.codility.test.animal.impl;
 
-import com.codility.test.animal.Chicken;
+import com.codility.app.animal.Chicken;
 
 public class Rooster extends Chicken {
 
